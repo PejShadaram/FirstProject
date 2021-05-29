@@ -53,9 +53,9 @@ const movies = [
         score: 85
     },
     {
-        title 'lethal weapon'
+        title: 'lethal weapon',
         score: 100
-    };
+    }]
 
 
 /* map */
