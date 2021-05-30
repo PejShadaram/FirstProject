@@ -92,7 +92,19 @@ const id = setInterval(() => {
 clearInterval(id)
 
 /* filter */
+
 const userNames = ["mark","staceymom2978","lajsdflj","carrie98"];
 
 const validUserNames = userNames.filter(x => 
     x.length() < 10);
+
+/* every */
+
+const numbers = [2,4,6,8,10,12,14,16]
+
+const allEvens = numbers.every(number => number % 2 === 0);
+
+
+/* reducer */
+
+
